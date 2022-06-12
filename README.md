@@ -17,7 +17,7 @@ lighthouse_dir: "/lighthouse"
 Dependencies
 ------------
 
-- buluma.git
+- geerlingguy.git
 - nginxinc.nginx
 
 Example Playbook
