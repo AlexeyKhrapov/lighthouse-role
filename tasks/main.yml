@@ -1,0 +1,8 @@
+---
+# tasks file for lighthouse-role
+
+- name: Get lighthouse from git
+  ansible.builtin.git:
+    repo: "{{ lighthouse_repo }}"
+    version: master
+    dest: "{{ lighthouse_dir }}"
